@@ -37,33 +37,32 @@ The step involves Floorplanning, Placement, Clock Tree Synthesis and Routing.
 
 ### 1. Ubuntu 22.04 LTS
 
-![ubuntu]()
+![ubuntu](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/Ubuntu%2020.04%20LTS.png)
 
 ### 2. Yosys
 
-![yosys]()
+![yosys](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/Yosys.png)
 
 ### 3. Iverilog
 
-![iverilog]()
+![iverilog](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/iverilog.png)
 
 ### 4. gtkwave
 
-![gtkwave]()
+![gtkwave](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/gtkwave.png)
 
 ### 5. OpenSTA
 
-![opensta]()
+![opensta](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/OpenSTA.png)
 
 ### 6. ngspice
 
-![ngspice]()
+![ngspice](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/ngspice.png)
 
 ### 7. magic
 
-![magic]()
+![magic](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/magic.png)
 
 ### 8. OpenLane
 
-![openlane]()
-
+![openlane](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/images/OpenLane.png)
