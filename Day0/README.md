@@ -1,4 +1,4 @@
-# Week 1
+# Day 0
 ## Task 1: Summary of Task 0
 
 ### Steps involved in the development of a chip:
