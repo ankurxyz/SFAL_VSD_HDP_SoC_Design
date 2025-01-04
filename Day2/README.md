@@ -66,60 +66,60 @@ The below image shows the synthesized sub_module1
 
 ### Code for Functional Verification of design
 `
-**$**iverilog {design_file.v} {test_bench_file.v}
-**$**./a.out
-**$**gtkwave {vcd_file.vcd}
+$iverilog {design_file.v} {test_bench_file.v}
+$./a.out
+$gtkwave {vcd_file.vcd}
 `
 
 ### Code for Design Synthesis
 `
-**yosys>**read_liberty -lib {standard_cell_library_file}
-**yosys>**read_verilog {design_file.v}
-**yosys>**synth -top {module_name}
-**yosys>**dfflibmap -liberty {dff_standard_cell_library_file}
-**yosys>**abc -liberty {standard_cell_library_file}
-**yosys>**show
+yosys>read_liberty -lib {standard_cell_library_file}\
+yosys>read_verilog {design_file.v}\
+yosys>synth -top {module_name}\
+yosys>dfflibmap -liberty {dff_standard_cell_library_file}\
+yosys>abc -liberty {standard_cell_library_file}\
+yosys>show
 `
 
 **1. D Flip Flop with asynchronous reset:**
  
 Functional Simulation waveform:
 
-![dff_asyncres_func_sim]()
+![dff_asyncres_func_sim](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_asyncres_func_sim.png)
 
 Synthesized Design:
 
-![dff_asyncres_synth]()
+![dff_asyncres_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_asyncres_synthesized.png)
 
 **2. D Flip Flop with asynchronous set:**
 
 Functional Simulation waveform:
 
-![dff_asyncset_func_sim]()
+![dff_asyncset_func_sim](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_asyncset_func_sim.png)
 
 Synthesized Design:
 
-![dff_asyncset_synth]()
+![dff_asyncset_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_asyncset_synth.png)
 
 **3. D Flip Flop with synchronous reset:**
 
 Functional Simulation waveform:
 
-![dff_syncres_func_sim]()
+![dff_syncres_func_sim](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_syncres_func_sim.png)
 
 Synthesized Design:
 
-![dff_syncres_synth]()
+![dff_syncres_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_syncres_synth.png)
 
 ## Multiplier Design Synthesis:
 
 **1. Mult2(out = in x 2) Synthesis:**
 
-![mul2_synth]()
+![mul2_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/multiplier_synth/mul2_sunthesize.png)
 
 **2. Mult8(out = in x 8) Synthesis:**
 
-![mul8_synth]()
+![mul8_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/multiplier_synth/mult8_synth.png)
 
 
 
