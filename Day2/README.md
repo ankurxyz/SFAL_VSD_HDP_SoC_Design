@@ -1,5 +1,5 @@
 # Day 2:
-## Hierarchical Design Synthesis
+##1. Hierarchical Design Synthesis
 
 In Hierarchical design synthesis, the sub module synthesis is not visible in the synthesized design.
 
@@ -35,7 +35,7 @@ In Hierarchical design synthesis, the sub module synthesis is not visible in the
 
 ![hierarchical_netlist](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/hierarchical_netlist/8_hierarchical_netlist.png)
 
-## Flattened Design Synthesis
+##2. Flattened Design Synthesis
 
 In Flattened Design Synthesis, the whole design is synthesized in one single module.
 For flattened design synthesis, after linking design to standard cell library run the below command
@@ -50,7 +50,7 @@ and has the following gate level netlist
 
 ![flat_netlist](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/flatten_netlist/3_flat_netlist.png)
 
-## Sub-Module Level Synthesis
+##3. Sub-Module Level Synthesis
 
 It is done when the design is very large or the synthesis tool has some limitation in handling large designs. In this methodology, different kinds of module that are used in design are synthesized separately and then replicated for their various instances.
 
@@ -62,16 +62,16 @@ The below image shows the synthesized sub_module1
 
 ![view_synth_design](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/submodule_level_synth/2_view_synth_design.png)
 
-## Functional Verification and Synthesis of Sequential Circuit Elements
+##4. Functional Verification and Synthesis of Sequential Circuit Elements
 
-### Code for Functional Verification of design
+###- Code for Functional Verification of design
 ```
 $iverilog {design_file.v} {test_bench_file.v}
 $./a.out
 $gtkwave {vcd_file.vcd}
 ```
 
-### Code for Design Synthesis
+###- Code for Design Synthesis
 ```
 yosys>read_liberty -lib {standard_cell_library_file}
 yosys>read_verilog {design_file.v}
@@ -81,7 +81,7 @@ yosys>abc -liberty {standard_cell_library_file}
 yosys>show
 ```
 
-**1. D Flip Flop with asynchronous reset:**
+**4.1 D Flip Flop with asynchronous reset:**
  
 Functional Simulation waveform:
 
@@ -91,7 +91,7 @@ Synthesized Design:
 
 ![dff_asyncres_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_asyncres_synthesized.png)
 
-**2. D Flip Flop with asynchronous set:**
+**4.2 D Flip Flop with asynchronous set:**
 
 Functional Simulation waveform:
 
@@ -101,7 +101,7 @@ Synthesized Design:
 
 ![dff_asyncset_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_asyncset_synth.png)
 
-**3. D Flip Flop with synchronous reset:**
+**4.3 D Flip Flop with synchronous reset:**
 
 Functional Simulation waveform:
 
@@ -111,13 +111,13 @@ Synthesized Design:
 
 ![dff_syncres_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/dff_synth/dff_syncres_synth.png)
 
-## Multiplier Design Synthesis:
+##5. Multiplier Design Synthesis:
 
-**1. Mult2 Synthesis:**
+**5.1 Mult2 Synthesis:**
 
 ![mul2_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/multiplier_synth/mul2_sunthesize.png)
 
-**2. Mult8 Synthesis:**
+**5.2 Mult8 Synthesis:**
 
 ![mul8_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/multiplier_synth/mult8_synth.png)
 
