@@ -66,19 +66,19 @@ The below image shows the synthesized sub_module1
 
 ### Code for Functional Verification of design
 `
-$iverilog {design_file.v} {test_bench_file.v}    
-$./a.out        
-$gtkwave {vcd_file.vcd}
+	$iverilog {design_file.v} {test_bench_file.v}
+	$./a.out
+	$gtkwave {vcd_file.vcd}
 `
 
 ### Code for Design Synthesis
 `
-yosys>read_liberty -lib {standard_cell_library_file}       
-yosys>read_verilog {design_file.v}         
-yosys>synth -top {module_name}         
-yosys>dfflibmap -liberty {dff_standard_cell_library_file}         
-yosys>abc -liberty {standard_cell_library_file}         
-yosys>show
+	yosys>read_liberty -lib {standard_cell_library_file}
+	yosys>read_verilog {design_file.v}
+	yosys>synth -top {module_name}
+	yosys>dfflibmap -liberty {dff_standard_cell_library_file}
+	yosys>abc -liberty {standard_cell_library_file}
+	yosys>show
 `
 
 **1. D Flip Flop with asynchronous reset:**
