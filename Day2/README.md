@@ -66,18 +66,18 @@ The below image shows the synthesized sub_module1
 
 ### Code for Functional Verification of design
 `
-$iverilog {design_file.v} {test_bench_file.v}<br>
-$./a.out<br>
+$iverilog {design_file.v} {test_bench_file.v}    
+$./a.out        
 $gtkwave {vcd_file.vcd}
 `
 
 ### Code for Design Synthesis
 `
-yosys>read_liberty -lib {standard_cell_library_file}<br>
-yosys>read_verilog {design_file.v}<br>
-yosys>synth -top {module_name}<br>
-yosys>dfflibmap -liberty {dff_standard_cell_library_file}<br>
-yosys>abc -liberty {standard_cell_library_file}<br>
+yosys>read_liberty -lib {standard_cell_library_file}       
+yosys>read_verilog {design_file.v}         
+yosys>synth -top {module_name}         
+yosys>dfflibmap -liberty {dff_standard_cell_library_file}         
+yosys>abc -liberty {standard_cell_library_file}         
 yosys>show
 `
 
@@ -113,11 +113,11 @@ Synthesized Design:
 
 ## Multiplier Design Synthesis:
 
-**1. Mult2(out = in x 2) Synthesis:**
+**1. Mult2 Synthesis:**
 
 ![mul2_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/multiplier_synth/mul2_sunthesize.png)
 
-**2. Mult8(out = in x 8) Synthesis:**
+**2. Mult8 Synthesis:**
 
 ![mul8_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day2/assets/multiplier_synth/mult8_synth.png)
 
