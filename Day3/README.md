@@ -46,62 +46,62 @@ yosys>show
 
 **Functional Verification:**
 
-![dff_const1_fv]()
+![dff_const1_fv](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const1_func_ver.png)
 
 **Synthesized Design:**
 
-![dff_const1_synth]()
+![dff_const1_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const1_synth.png)
 
 #### 2.1.2 dff_const2
 
 **Functional Verification:**
 
-![dff_const2_fv]()
+![dff_const2_fv](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const2_func_ver.png)
 
 **Synthesized Design:**
 
-![dff_const2_synth]()
+![dff_const2_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const2_synth.png)
 
 #### 2.1.3 dff_const3
 
 **Functional Verification:**
 
-![dff_const3_fv]()
+![dff_const3_fv](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const3_func_ver.png)
 
 **Synthesized Design:**
 
-![dff_const3_synth]()
+![dff_const3_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const3_synth.png)
 
 #### 2.1.4 dff_const4
 
 **Functional Verification:**
 
-![dff_const4_fv]()
+![dff_const4_fv](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const4_func_ver.png)
 
 **Synthesized Design:**
 
-![dff_const4_synth]()
+![dff_const4_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const4_synth.png)
 
 #### 2.1.5 dff_const5
 
 **Functional Verification:**
 
-![dff_const5_fv]()
+![dff_const5_fv](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const5_func_ver.png)
 
 **Synthesized Design:**
 
-![dff_const5_synth]()
+![dff_const5_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/dff_const5_synth.png)
 
 #### 2.1.6 counter_opt
 
 **Synthesized Design:**
 
-![counter_opt_synth]()
+![counter_opt_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/counter_opt_synth.png)
 
 #### 2.1.7 counter_opt2
 
 **Synthesized Design:**
 
-![counter_opt2_synth]()
+![counter_opt2_synth](https://github.com/ankurxyz/SFAL_VSD_HDP_SoC_Design/blob/master/Day3/assets/seq_logic_opt/counter_opt2_synth.png)
 
  
